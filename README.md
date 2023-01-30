@@ -1,5 +1,5 @@
-Reflect APIs
-============
+Buf Reflection API
+==================
 [![CI](https://github.com/bufbuild/reflect/workflows/buf/badge.svg)](https://github.com/bufbuild/reflect/actions?workflow=buf)
 
 This `reflect` repo contains Protobuf sources for APIs related to runtime reflection.
