@@ -1,8 +1,9 @@
 Buf Reflection API
 ==================
-[![CI](https://github.com/bufbuild/reflect/workflows/buf/badge.svg)](https://github.com/bufbuild/reflect/actions?workflow=buf)
+[![CI](https://github.com/bufbuild/reflect-api/workflows/buf/badge.svg)](https://github.com/bufbuild/reflect-api/actions?workflow=buf)
 
-This `reflect` repo contains Protobuf sources for APIs related to runtime reflection.
+This repo contains Protobuf sources for APIs related to runtime reflection backed by a schema
+registry.
 
 For now, this consists solely of a single RPC endpoint which can be used to download Protobuf
 schemas from a server. The BSR (Buf Schema Registry) _implements_ this service, so you can use
@@ -80,10 +81,10 @@ That library is called `prototransform` and it is available on
 
 This API is currently designated as a Beta version. While it is unlikely to change in a
 significant way before a "v1", we're looking for users to put some miles on the API and
-provide feedback (via a [GitHub issue](/bufbuild/reflect/issues)).
+provide feedback (via a [GitHub issue](/bufbuild/reflect-api/issues)).
 
 ## Legal
 
 Offered under the [Apache 2 license][license].
 
-[license]: https://github.com/bufbuild/skeleton-oss-go/blob/main/LICENSE
+[license]: https://github.com/bufbuild/reflect-api/blob/main/LICENSE
