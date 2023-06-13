@@ -31,7 +31,9 @@ service FileDescriptorSetService {
   // GetFileDescriptorSet returns a set of file descriptors that can be used to build
   // dynamic representations of a schema and/or service interfaces. This can also be
   // used for server reflection.
-  rpc GetFileDescriptorSet(GetFileDescriptorSetRequest) returns (GetFileDescriptorSetResponse);
+  rpc GetFileDescriptorSet(GetFileDescriptorSetRequest) returns (GetFileDescriptorSetResponse) {
+    option idempotency_level = NO_SIDE_EFFECTS;
+  }
 }
 
 message GetFileDescriptorSetRequest {
