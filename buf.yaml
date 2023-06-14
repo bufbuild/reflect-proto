@@ -3,6 +3,8 @@ name: buf.build/bufbuild/reflect
 breaking:
   use:
     - FILE
+  except:
+    - RPC_SAME_IDEMPOTENCY_LEVEL
 lint:
   use:
     - DEFAULT
