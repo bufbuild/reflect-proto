@@ -81,7 +81,7 @@ That library is called `prototransform` and it is available on
 
 This API is currently designated as a Beta version. While it is unlikely to change in a
 significant way before a "v1", we're looking for users to put some miles on the API and
-provide feedback (via a [GitHub issue](/bufbuild/reflect-api/issues)).
+provide feedback (via a [GitHub issue](https://github.com/bufbuild/reflect-api/issues)).
 
 ## Legal
 
