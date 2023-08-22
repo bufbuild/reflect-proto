@@ -1,6 +1,6 @@
 Buf Reflection API
 ==================
-[![CI](https://github.com/bufbuild/reflect-api/workflows/buf/badge.svg)](https://github.com/bufbuild/reflect-api/actions?workflow=buf)
+[![CI](https://github.com/bufbuild/reflect-proto/workflows/buf/badge.svg)](https://github.com/bufbuild/reflect-proto/actions?workflow=buf)
 
 This repo contains Protobuf sources for APIs related to runtime reflection backed by a schema
 registry.
@@ -81,10 +81,10 @@ That library is called `prototransform` and it is available on
 
 This API is currently designated as a Beta version. While it is unlikely to change in a
 significant way before a "v1", we're looking for users to put some miles on the API and
-provide feedback (via a [GitHub issue](https://github.com/bufbuild/reflect-api/issues)).
+provide feedback (via a [GitHub issue](https://github.com/bufbuild/reflect-proto/issues)).
 
 ## Legal
 
 Offered under the [Apache 2 license][license].
 
-[license]: https://github.com/bufbuild/reflect-api/blob/main/LICENSE
+[license]: https://github.com/bufbuild/reflect-proto/blob/main/LICENSE
