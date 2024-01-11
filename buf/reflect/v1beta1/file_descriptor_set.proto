@@ -18,6 +18,8 @@ package buf.reflect.v1beta1;
 
 import "google/protobuf/descriptor.proto";
 
+option go_package = "buf.build/gen/go/bufbuild/reflect/protocolbuffers/go/buf/reflect/v1beta1";
+
 // FileDescriptorSetService is implemented by a schema registry. It allows clients to download
 // Protobuf schemas. The schema is returned in the form of a FileDescriptorSet, which is also
 // the same form produced by the `protoc` reference compiler (and is compatible with the format
