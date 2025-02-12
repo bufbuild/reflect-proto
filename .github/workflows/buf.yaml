@@ -3,7 +3,7 @@ on:
   push:
 jobs:
   lint:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: bufbuild/buf-setup-action@v1
@@ -11,7 +11,7 @@ jobs:
         with:
           buf_token: ${{ secrets.BUF_TOKEN }}
   breaking:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: bufbuild/buf-setup-action@v1
